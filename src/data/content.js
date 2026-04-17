@@ -24,28 +24,20 @@ export const CERTIFICATIONS = [
 export const SKILLS = [
   {
     label: 'Languages',
-    items: ['C# · .NET', 'Python', 'SQL', 'HTML · CSS · JS'],
+    items: ['C#· .NET', 'Python', 'SQL', 'HTML · CSS · JS · TS'],
   },
   {
-    label: 'Cloud · Azure',
-    items: ['Azure OpenAI Service', 'Azure AI Search', 'App Service · Functions', 'Container Apps'],
+    label: 'Frontend',
+    items: ['React', 'Tailwind CSS'],
   },
   {
-    label: 'AI Engineering',
-    items: ['RAG Pipelines', 'Semantic Kernel', 'LangChain', 'Prompt Engineering'],
-  },
-  {
-    label: 'DevOps · Tooling',
-    items: ['GitHub Actions · CI/CD', 'Docker', 'Git', 'VS Code'],
+    label: 'Tooling',
+    items: ['Git', 'VS Code', 'Prompt Engineering'],
   },
   {
     label: 'Fundamentals',
-    items: ['OOP · Design Patterns', 'REST APIs', 'DSA', 'Unit Testing'],
+    items: ['OOP', 'REST APIs'],
   },
-  /*{
-    label: 'Architecture',
-    items: ['Cloud-Native Design', 'Microservices', 'Serverless', 'System Design'],
-  },*/
 ]
 
 export const PROJECTS = [
