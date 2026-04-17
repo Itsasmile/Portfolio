@@ -45,7 +45,7 @@ export default function About() {
           {[
             {
               title: 'Education',
-              rows: [{ label: 'Computer Science — B.S.', value: '2024' }],
+              rows: [{ label: 'Computer Science — B.S.', value: '2025' }],
             },
             {
               title: 'Currently Learning',
