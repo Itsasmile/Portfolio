@@ -31,8 +31,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-bg text-ink">
       <Navbar />
-      {/* Extra top padding accounts for cert banner + nav */}
-      <div className="pt-[89px]">
+      <div className="pt-[72px]">
         <Hero />
         <HowIWork />
         <Skills />
