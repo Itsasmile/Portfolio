@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <>
       {/* Main nav */}
-      <nav className="fixed top-[33px] left-0 right-0 z-50 flex items-center justify-between px-14 py-5 border-b border-border bg-bg/90 backdrop-blur-md">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-14 py-5 border-b border-border bg-bg/90 backdrop-blur-md">
         <a href="#hero" className="font-display text-[19px] text-ink">
           Ismaeil <em className="italic text-gold not-italic">Mohammed</em>
         </a>

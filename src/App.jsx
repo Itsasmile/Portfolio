@@ -31,7 +31,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-bg text-ink">
       <Navbar />
-      <div className="pt-[56px]">
+      <div className="pt-[72px]">
         <Hero />
         <HowIWork />
         <Skills />
