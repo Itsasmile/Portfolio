@@ -1,8 +1,7 @@
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import CurrentlyBuilding from './components/CurrentlyBuilding'
-import Roadmap from './components/Roadmap'
+import HowIWork from './components/HowIWork'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import About from './components/About'
@@ -10,7 +9,6 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export default function App() {
-  // Scroll reveal — watches all .reveal elements across the page
   useEffect(() => {
     const targets = document.querySelectorAll('.reveal')
 
@@ -33,14 +31,16 @@ export default function App() {
   return (
     <div className="min-h-screen bg-bg text-ink">
       <Navbar />
-      <Hero />
-      <CurrentlyBuilding />
-      <Roadmap />
-      <Skills />
-      <Projects />
-      <About />
-      <Contact />
-      <Footer />
+      {/* Extra top padding accounts for cert banner + nav */}
+      <div className="pt-[89px]">
+        <Hero />
+        <HowIWork />
+        <Skills />
+        <Projects />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }
