@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="flex items-center gap-3 mb-9 animate-rise-1">
           <div className="w-8 h-px bg-gold" />
           <span className="text-[11px] tracking-[0.2em] uppercase text-gold font-normal">
-            Cloud &amp; AI Engineer
+            Software Engineer · Cloud & AI
           </span>
         </div>
 

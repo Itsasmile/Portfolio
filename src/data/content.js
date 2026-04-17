@@ -2,7 +2,7 @@ export const PERSONAL = {
   name:       'Ismaeil Mohammed',
   firstName:  'Ismaeil',
   lastName:   'Mohammed',
-  role:       'Cloud & AI Engineer',
+  role:       'Software Engineer · Cloud & AI',
   location:   'Dallas, TX',
   remote:     'Open to remote',
   email:      'ismaeil.mohammed99@gmail.com',
