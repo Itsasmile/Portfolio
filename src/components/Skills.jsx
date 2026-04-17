@@ -6,7 +6,7 @@ export default function Skills() {
     <section id="skills" className="max-w-[1100px] mx-auto px-14 py-24">
       <SectionHeader title="Technical" italic="Toolkit" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border reveal">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border border border-border reveal">
         {SKILLS.map((group) => (
           <div
             key={group.label}

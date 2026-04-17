@@ -24,19 +24,15 @@ export const CERTIFICATIONS = [
 export const SKILLS = [
   {
     label: 'Languages',
-    items: ['C#· .NET', 'Python', 'SQL', 'HTML · CSS · JS · TS'],
+    items: ['C# · .NET', 'Python', 'SQL', 'HTML · CSS · JS · TS'],
   },
   {
-    label: 'Frontend',
-    items: ['React', 'Tailwind CSS'],
-  },
-  {
-    label: 'Tooling',
-    items: ['Git', 'VS Code', 'Prompt Engineering'],
+    label: 'Frontend & Tooling',
+    items: ['React', 'Tailwind CSS', 'Git', 'VS Code'],
   },
   {
     label: 'Fundamentals',
-    items: ['OOP', 'REST APIs'],
+    items: ['OOP', 'REST APIs', 'Prompt Engineering'],
   },
 ]
 
