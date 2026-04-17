@@ -4,7 +4,7 @@ import SectionHeader from './SectionHeader'
 export default function Skills() {
   return (
     <section id="skills" className="max-w-[1100px] mx-auto px-14 py-24">
-      <SectionHeader number="01" title="Technical" italic="Toolkit" />
+      <SectionHeader title="Technical" italic="Toolkit" />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border border border-border reveal">
         {SKILLS.map((group) => (

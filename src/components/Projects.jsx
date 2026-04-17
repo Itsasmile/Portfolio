@@ -4,7 +4,7 @@ import SectionHeader from './SectionHeader'
 export default function Projects() {
   return (
     <section id="projects" className="max-w-[1100px] mx-auto px-14 py-24">
-      <SectionHeader number="02" title="Selected" italic="Work" />
+      <SectionHeader title="Selected" italic="Work" />
 
       <div className="flex flex-col reveal">
         {PROJECTS.map((p, i) => (
