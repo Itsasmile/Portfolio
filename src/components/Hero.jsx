@@ -97,7 +97,7 @@ export default function Hero() {
             Primary Stack
           </p>
           <p className="text-[14px] text-ink font-light">C# · Python · Azure</p>
-          <p className="text-[13px] text-muted mt-1">Semantic Kernel · Azure OpenAI</p>
+
         </div>
       </div>
     </section>
