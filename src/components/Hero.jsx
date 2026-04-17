@@ -27,7 +27,7 @@ export default function Hero() {
           <strong className="text-ink font-normal">
             AI-powered systems on Microsoft Azure
           </strong>{' '}
-          — working toward roles in cloud engineering, AI engineering, and
+          — working toward roles in cloud engineering, Software/AI engineering, and
           solutions architecture.
         </p>
 
