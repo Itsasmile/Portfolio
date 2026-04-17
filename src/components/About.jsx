@@ -4,16 +4,16 @@ import SectionHeader from './SectionHeader'
 export default function About() {
   return (
     <section id="about" className="max-w-[1100px] mx-auto px-14 py-24">
-      <SectionHeader number="03" title="About" italic="Me" />
+      <SectionHeader title="About" italic="Me" />
 
       <div className="grid md:grid-cols-2 gap-20 items-start">
         {/* Text */}
         <div className="flex flex-col gap-5 reveal">
           {[
-            <>I'm a <strong className="text-ink font-normal">Computer Science graduate</strong> focused on cloud infrastructure and AI engineering — specifically the Microsoft Azure ecosystem.</>,
+            <>I'm a <strong className="text-ink font-normal">Computer Science graduate</strong> focused on cloud infrastructure and Software/AI engineering — specifically the Microsoft Azure ecosystem.</>,
             <>My path is deliberate: <strong className="text-ink font-normal">C# and Python in parallel</strong>, Azure certifications as milestones, and real projects that demonstrate what I can actually build — not just what I've studied.</>,
             <>I use AI as a force multiplier. Every project in this portfolio is something I understand end-to-end. I can walk through the architecture, explain every decision, and extend it further.</>,
-            <>Long-term I'm building toward a <strong className="text-ink font-normal">Solutions Architect</strong> role within the Microsoft ecosystem — starting with a platform or AI engineering position where I can grow alongside strong senior engineers.</>,
+            <>Long-term I'm building toward a <strong className="text-ink font-normal">Solutions Architect</strong> role within the Microsoft ecosystem — starting with a Platform or Software/AI engineering position where I can grow alongside strong senior engineers.</>,
           ].map((text, i) => (
             <p key={i} className="text-[15px] text-muted leading-[1.85]">
               {text}
@@ -59,7 +59,7 @@ export default function About() {
               title: 'Target Roles',
               rows: [
                 { label: 'Cloud Engineer', value: '↗' },
-                { label: 'AI Engineer', value: '↗' },
+                { label: 'Software/AI Engineer', value: '↗' },
                 { label: 'Platform Engineer', value: '↗' },
               ],
             },
