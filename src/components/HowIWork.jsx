@@ -2,21 +2,20 @@ import SectionHeader from './SectionHeader'
 
 const PRINCIPLES = [
   {
-
-    title:  'I build with AI, not just alongside it',
-    desc:   'Every project I ship uses LLMs as a core architectural layer — not a feature bolted on at the end. I understand what\'s underneath the API call.',
+    title: 'I learn by building',
+    desc: 'I don\'t wait until I feel ready. I pick up a new tool, build something real with it, and figure out the hard parts along the way.',
   },
   {
-    title:  'Azure-first',
-    desc:   'Cloud infrastructure is the foundation. I don\'t just call APIs — I deploy, manage, and architect what runs them on Azure.',
+    title: 'I use AI as a tool, not a crutch',
+    desc: 'I use AI to move faster — but I make sure I understand everything I ship. I can explain every decision in my code.',
   },
   {
-    title:  'I can explain every line',
-    desc:   'Nothing in my portfolio is copy-pasted and forgotten. I can walk through architecture decisions, tradeoffs, and implementation details in any interview.',
+    title: 'I care about the fundamentals',
+    desc: 'Frameworks come and go. I focus on the underlying concepts — OOP, clean code, and how systems talk to each other, because those are transferable anywhere.',
   },
   {
-    title:  'Ship, then improve',
-    desc:   'Working software on a real URL beats perfect code that never deploys. I get things live, then iterate — that\'s how real products are built.',
+    title: 'Ship, then improve',
+    desc: 'Working software on a real URL beats perfect code that never deploys. I get things live, then iterate.',
   },
 ]
 

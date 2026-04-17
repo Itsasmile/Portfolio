@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen grid md:grid-cols-2 items-center gap-20 px-14 pt-[120px] pb-20 border-b border-border"
+      className="min-h-screen grid md:grid-cols-2 items-center gap-20 px-14 pt-[60px] pb-20 border-b border-border"
     >
       {/* LEFT */}
       <div>
