@@ -19,7 +19,7 @@ export const PROJECTS = [
     title: 'Resume Analyzer',
     desc: 'An AI-powered tool that reads a resume and returns structured feedback — skill gap analysis, role fit scoring, and actionable rewrites. Built with Python and Azure OpenAI, deployed on Azure App Service.',
     stack: ['Python', 'Azure OpenAI', 'FastAPI', 'Azure App Service'],
-    status: 'In production',
+    status: 'In Planning',
     live: false,
     github: null,
   },
