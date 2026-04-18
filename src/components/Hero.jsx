@@ -70,34 +70,33 @@ export default function Hero() {
         {/* Certifications */}
         <div>
           <p className="text-[10px] tracking-[0.2em] uppercase text-gold-dim mb-3 font-normal">
-            Certifications
+            Languages
           </p>
-          {CERTIFICATIONS.map((c) => (
-            <div
-              key={c.name}
-              className="flex items-center justify-between py-[10px] border-b border-border last:border-b-0 gap-3"
-            >
-              <span className="text-[13px] text-ink">{c.name}</span>
-              <span
-                className={`text-[10px] tracking-[0.08em] px-[9px] py-[3px] whitespace-nowrap ${
-                  c.active
-                    ? 'bg-gold/10 text-gold border border-gold/25'
-                    : 'bg-white/[0.03] text-muted border border-border2'
-                }`}
-              >
-                {c.status}
-              </span>
-            </div>
-          ))}
+          <div className="cert-row flex items-center justify-between py-[10px] border-b border-border gap-3">
+            <span className="text-[13px] text-ink">C# · .NET</span>
+            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+          </div>
+          <div className="flex items-center justify-between py-[10px] border-b border-border gap-3">
+            <span className="text-[13px] text-ink">Python</span>
+            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+          </div>
+          <div className="flex items-center justify-between py-[10px] border-b border-border gap-3">
+            <span className="text-[13px] text-ink">SQL</span>
+            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+          </div>
+          <div className="flex items-center justify-between py-[10px] gap-3">
+            <span className="text-[13px] text-ink">React · TypeScript</span>
+            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+          </div>
         </div>
 
         {/* Stack */}
         <div>
           <p className="text-[10px] tracking-[0.2em] uppercase text-gold-dim mb-3 font-normal">
-            Primary Stack
+            Currently
           </p>
-          <p className="text-[14px] text-ink font-light">C# · Python · Azure</p>
-
+          <p className="text-[14px] text-ink font-light">Open to opportunities</p>
+          <p className="text-[13px] text-muted mt-1">Junior · Mid-level roles</p>
         </div>
       </div>
     </section>
