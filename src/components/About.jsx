@@ -10,10 +10,10 @@ export default function About() {
         {/* Text */}
         <div className="flex flex-col gap-5 reveal">
           {[
-            <>I'm a <strong className="text-ink font-normal">Computer Science graduate</strong> focused on cloud infrastructure and Software/AI engineering — specifically the Microsoft Azure ecosystem.</>,
-            <>My path is deliberate: <strong className="text-ink font-normal">C# and Python in parallel</strong>, Azure certifications as milestones, and real projects that demonstrate what I can actually build — not just what I've studied.</>,
-            <>I use AI as a force multiplier. Every project in this portfolio is something I understand end-to-end. I can walk through the architecture, explain every decision, and extend it further.</>,
-            <>Long-term I'm building toward a <strong className="text-ink font-normal">Solutions Architect</strong> role within the Microsoft ecosystem — starting with a Platform or Software/AI engineering position where I can grow alongside strong senior engineers.</>,
+            <>I'm a <strong className="text-ink font-normal">Computer Science graduate</strong> from the University of North Texas, class of 2025 — focused on Software engineering.</>,
+            <>My first real project was a Discord bot. Watching people actually use it — benefit from it, enjoy it — sparked something I hadn't felt before. That moment is what made me curious about software engineering.</>,
+            <>I build with that same intention now. I care about writing code that does something real for real people, not just code that works on my machine.</>,
+            <>I'm looking for an entry-level software engineering role where I can contribute, keep growing, and work alongside senior engineers I can learn from.</>,
           ].map((text, i) => (
             <p key={i} className="text-[15px] text-muted leading-[1.85]">
               {text}
