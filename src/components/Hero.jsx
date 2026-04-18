@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="flex items-center gap-3 mb-9 animate-rise-1">
           <div className="w-8 h-px bg-gold" />
           <span className="text-[11px] tracking-[0.2em] uppercase text-gold font-normal">
-            Software Engineer · Cloud & AI
+            Software Engineer · Full-Stack & Backend
           </span>
         </div>
 
@@ -25,10 +25,10 @@ export default function Hero() {
         <p className="text-[15px] text-muted max-w-[420px] leading-[1.85] mb-4 animate-rise-4">
           CS graduate building{' '}
           <strong className="text-ink font-normal">
-            AI-powered systems on Microsoft Azure
+            reliable, well-crafted software
           </strong>{' '}
-          — working toward roles in cloud engineering, Software/AI engineering, and
-          solutions architecture.
+          — looking for entry-level software engineering roles in
+          full-stack, backend, or product-focused teams.
         </p>
 
         <p className="text-[13px] text-gold-dim italic max-w-[380px] mb-12 border-l-2 border-gold-dim pl-4 animate-rise-5">
@@ -96,7 +96,7 @@ export default function Hero() {
             Currently
           </p>
           <p className="text-[14px] text-ink font-light">Open to opportunities</p>
-          <p className="text-[13px] text-muted mt-1">Junior · Mid-level roles</p>
+          <p className="text-[13px] text-muted mt-1">Entry-level roles</p>
         </div>
       </div>
     </section>
