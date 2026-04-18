@@ -19,7 +19,7 @@ export default function Contact() {
             <em className="italic font-normal text-gold">something.</em>
           </h2>
           <p className="text-[14px] text-muted mb-10 leading-[1.8]">
-            Open to junior cloud, AI, and software engineering roles — especially within the Microsoft ecosystem. Always happy to connect.
+            Open to Entry Level Software Engineering roles. Always happy to connect.
           </p>
           <a
             href={`mailto:${PERSONAL.email}`}
