@@ -48,19 +48,11 @@ export default function About() {
               rows: [{ label: 'Computer Science — B.S.', value: '2025' }],
             },
             {
-              title: 'Currently Learning',
-              rows: [
-                { label: 'AZ-900 Azure Fundamentals', value: 'Active' },
-                { label: 'C# · .NET', value: 'Active' },
-                { label: 'Python DSA via NeetCode', value: 'Active' },
-              ],
-            },
-            {
               title: 'Target Roles',
               rows: [
-                { label: 'Cloud Engineer', value: '↗' },
-                { label: 'Software/AI Engineer', value: '↗' },
-                { label: 'Platform Engineer', value: '↗' },
+                { label: 'Junior Software Engineer', value: '↗' },
+                { label: 'Entry-Level SWE', value: '↗' },
+                { label: 'Associate Software Engineer', value: '↗' },
               ],
             },
           ].map((block) => (

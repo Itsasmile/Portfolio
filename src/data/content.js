@@ -34,7 +34,6 @@ export const PROJECTS = [
   },
 ]
 
-export const CURRENTLY_BUILDING = 'Portfolio website · Setting up Azure account · Starting AZ-900 on Microsoft Learn'
 
 export const PROGRESS_STEPS = ['Sprint 1', 'Sprint 2', 'Sprint 3', 'Sprint 4']
 export const CURRENT_STEP = 0 // 0-indexed — update as you progress
