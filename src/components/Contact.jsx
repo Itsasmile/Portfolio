@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="reveal">
           <h2 className="font-display text-[clamp(32px,4vw,52px)] font-bold leading-tight tracking-tight mb-5">
             Let's build<br />
-            <em className="italic font-normal text-gold">something.</em>
+            <em className="italic font-normal text-gold">together.</em>
           </h2>
           <p className="text-[14px] text-muted mb-10 leading-[1.8]">
             Open to Entry Level Software Engineering roles. Always happy to connect.

@@ -12,7 +12,6 @@ export const PERSONAL = {
   linkedinLabel: 'linkedin.com/in/IsmaeilMohammed',
   resume: '/resume.pdf',
   tagline: '"I don\'t just use AI tools — I build with them, on top of them, and I understand what\'s underneath."',
-  summary: 'CS graduate building AI-powered systems on Microsoft Azure — working toward roles in cloud engineering, AI engineering, and solutions architecture.',
 }
 
 export const PROJECTS = [

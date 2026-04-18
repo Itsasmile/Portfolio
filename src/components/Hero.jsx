@@ -23,7 +23,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-[15px] text-muted max-w-[420px] leading-[1.85] mb-4 animate-rise-4">
-          CS graduate building{' '}
+          Software Engineer building{' '}
           <strong className="text-ink font-normal">
             reliable, well-crafted software
           </strong>{' '}
@@ -74,19 +74,19 @@ export default function Hero() {
           </p>
           <div className="cert-row flex items-center justify-between py-[10px] border-b border-border gap-3">
             <span className="text-[13px] text-ink">C# · .NET</span>
-            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+            {/* <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span> */}
           </div>
           <div className="flex items-center justify-between py-[10px] border-b border-border gap-3">
             <span className="text-[13px] text-ink">Python</span>
-            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+            {/* <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span> */}
           </div>
           <div className="flex items-center justify-between py-[10px] border-b border-border gap-3">
             <span className="text-[13px] text-ink">SQL</span>
-            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+            {/* <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span> */}
           </div>
           <div className="flex items-center justify-between py-[10px] gap-3">
             <span className="text-[13px] text-ink">React · TypeScript</span>
-            <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span>
+            {/* <span className="text-[10px] tracking-[0.08em] px-[9px] py-[3px] bg-white/[0.03] text-muted border border-border2">Intermediate</span> */}
           </div>
         </div>
 
