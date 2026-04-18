@@ -15,30 +15,8 @@ export const PERSONAL = {
   summary:    'CS graduate building AI-powered systems on Microsoft Azure — working toward roles in cloud engineering, AI engineering, and solutions architecture.',
 }
 
-export const CERTIFICATIONS = [
-  { name: 'AZ-900 Azure Fundamentals',  status: 'In Progress', active: true  },
-  { name: 'AZ-104 Azure Administrator', status: 'Upcoming',    active: false },
-  { name: 'AI-102 Azure AI Engineer',   status: 'Upcoming',    active: false },
-]
-
-export const SKILLS = [
-  {
-    label: 'Languages',
-    items: ['C# · .NET', 'Python', 'SQL', 'HTML · CSS · JS · TS'],
-  },
-  {
-    label: 'Frontend & Tooling',
-    items: ['React', 'Tailwind CSS', 'Git', 'VS Code'],
-  },
-  {
-    label: 'Fundamentals',
-    items: ['OOP', 'REST APIs', 'Prompt Engineering'],
-  },
-]
-
 export const PROJECTS = [
   {
-    /*index:  '001',*/
     title:  'Resume Analyzer',
     desc:   'An AI-powered tool that reads a resume and returns structured feedback — skill gap analysis, role fit scoring, and actionable rewrites. Built with Python and Azure OpenAI, deployed on Azure App Service.',
     stack:  ['Python', 'Azure OpenAI', 'FastAPI', 'Azure App Service'],
@@ -47,7 +25,6 @@ export const PROJECTS = [
     github: null,
   },
   {
-    /*index:  '002',*/
     title:  'AI Study Assistant — RAG',
     desc:   'A retrieval-augmented generation chatbot that lets users upload documents and query them conversationally. Built with C#, Semantic Kernel, and Azure AI Search. Deployed on Azure Container Apps with a full CI/CD pipeline via GitHub Actions.',
     stack:  ['C#', 'Semantic Kernel', 'Azure OpenAI', 'Azure AI Search', 'Container Apps'],
