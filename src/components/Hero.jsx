@@ -1,4 +1,4 @@
-import { PERSONAL, CERTIFICATIONS } from '../data/content'
+import { PERSONAL} from '../data/content'
 
 export default function Hero() {
   return (
